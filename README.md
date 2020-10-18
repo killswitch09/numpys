@@ -11,3 +11,8 @@ Key terms:
 - Scalar - A single number (e.g. 7).
 - Vector - A list of numbers with 1-dimesion (e.g. np.array([1, 2, 3])).
 - Matrix - A (usually) multi-deminsional list of numbers (e.g. np.array([[1, 2, 3], [4, 5, 6]])).
+
+NumPy uses pseudo-random numbers, which means, the numbers look random but aren't really, they're predetermined.
+For consistency, you might want to keep the random numbers you generate similar throughout experiments.
+To do this, you can use np.random.seed().
+What this does is it tells NumPy, "Hey, I want you to create random numbers but keep them aligned with the seed."
